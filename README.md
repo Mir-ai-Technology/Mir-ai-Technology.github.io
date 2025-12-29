@@ -1,1 +1,2 @@
-# Mir-ai-Technology.github.io
+# mir-ai.github.io
+Mir.ai Technology — Reflecting the Future of AI

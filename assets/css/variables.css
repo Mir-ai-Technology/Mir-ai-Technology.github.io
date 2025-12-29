@@ -1,0 +1,144 @@
+/* ===================================
+   MIR.AI TECHNOLOGY — CSS VARIABLES
+   =================================== */
+
+:root {
+  /* -------------------------
+     Logo Colors (Primary)
+     ------------------------- */
+  --color-silver: #C0C5C9;
+  --color-blood-red: #9B2335;
+  --color-light-blue: #5D8CAE;
+  --color-dark-silver: #7D8491;
+  --color-deep-red: #6E1423;
+
+  /* -------------------------
+     Light Mode
+     ------------------------- */
+  --bg-primary: #FAFBFC;
+  --bg-secondary: #F0F2F4;
+  --bg-tertiary: #E8EAED;
+  --bg-inverse: #0D0F12;
+  
+  --text-primary: #1A1D21;
+  --text-secondary: #7D8491;
+  --text-tertiary: #A0A5AC;
+  --text-inverse: #E8EAED;
+  
+  --border-default: #C0C5C9;
+  --border-subtle: #E8EAED;
+  --border-emphasis: #7D8491;
+  
+  --link-default: #5D8CAE;
+  --link-hover: #4A7291;
+  
+  --accent-primary: #9B2335;
+  --accent-hover: #6E1423;
+  --accent-light: rgba(155, 35, 53, 0.1);
+
+  /* -------------------------
+     Typography
+     ------------------------- */
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+
+  --leading-tight: 1.25;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  /* -------------------------
+     Spacing
+     ------------------------- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* -------------------------
+     Layout
+     ------------------------- */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1200px;
+  --container-2xl: 1400px;
+  --container-padding: var(--space-6);
+
+  /* -------------------------
+     Effects
+     ------------------------- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 350ms ease;
+
+  /* -------------------------
+     Z-Index
+     ------------------------- */
+  --z-dropdown: 10;
+  --z-sticky: 20;
+  --z-fixed: 30;
+  --z-modal-backdrop: 40;
+  --z-modal: 50;
+  --z-tooltip: 60;
+}
+
+/* -------------------------
+   Dark Mode
+   ------------------------- */
+[data-theme="dark"] {
+  --bg-primary: #0D0F12;
+  --bg-secondary: #161A1F;
+  --bg-tertiary: #1E2329;
+  --bg-inverse: #FAFBFC;
+  
+  --text-primary: #E8EAED;
+  --text-secondary: #A0A5AC;
+  --text-tertiary: #7D8491;
+  --text-inverse: #1A1D21;
+  
+  --border-default: #2D333B;
+  --border-subtle: #1E2329;
+  --border-emphasis: #7D8491;
+  
+  --link-default: #7BA3C4;
+  --link-hover: #5D8CAE;
+  
+  --accent-hover: #B83A4B;
+  --accent-light: rgba(155, 35, 53, 0.2);
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+}
