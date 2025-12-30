@@ -11,6 +11,7 @@
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -25,15 +26,27 @@
      inkscape:document-units="mm"
      inkscape:zoom="1.1313833"
      inkscape:cx="308.03001"
-     inkscape:cy="472.43053"
+     inkscape:cy="601.4761"
      inkscape:window-width="1600"
      inkscape:window-height="837"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1">
+    <linearGradient
+       id="linearGradient67"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#606060;stop-opacity:1;"
+         offset="0.35244817"
+         id="stop67" />
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:0;"
+         offset="0.48924005"
+         id="stop68" />
+    </linearGradient>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="0 : 148.5 : 1"
@@ -48,6 +61,91 @@
        inkscape:vp_z="1.5605306 : 149.03114 : 1"
        inkscape:persp3d-origin="105.12425 : 230.66139 : 1"
        id="perspective1-6" />
+    <filter
+       inkscape:label="Combined Lighting"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Basic specular bevel to use for building textures"
+       style="color-interpolation-filters:sRGB;"
+       id="filter61"
+       x="-0.11144454"
+       y="-0.45532112"
+       width="1.2228891"
+       height="1.9106422">
+      <feGaussianBlur
+         stdDeviation="6"
+         in="SourceGraphic"
+         result="result0"
+         id="feGaussianBlur59" />
+      <feDiffuseLighting
+         lighting-color="rgb(255,255,255)"
+         diffuseConstant="1"
+         surfaceScale="4"
+         result="result5"
+         id="feDiffuseLighting59">
+        <feDistantLight
+           elevation="45"
+           azimuth="235"
+           id="feDistantLight59" />
+      </feDiffuseLighting>
+      <feComposite
+         k1="1.4"
+         in2="SourceGraphic"
+         in="result5"
+         result="fbSourceGraphic"
+         operator="arithmetic"
+         k2="0"
+         k3="0"
+         k4="0"
+         id="feComposite59" />
+      <feGaussianBlur
+         result="result0"
+         in="fbSourceGraphic"
+         stdDeviation="6"
+         id="feGaussianBlur60" />
+      <feSpecularLighting
+         specularExponent="25"
+         specularConstant="1"
+         surfaceScale="4"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="result0"
+         id="feSpecularLighting60">
+        <feDistantLight
+           azimuth="235"
+           elevation="45"
+           id="feDistantLight60" />
+      </feSpecularLighting>
+      <feComposite
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         in2="result1"
+         result="result4"
+         k1="0"
+         k4="0"
+         id="feComposite60" />
+      <feGaussianBlur
+         stdDeviation="1"
+         in="result4"
+         result="result6"
+         id="feGaussianBlur61" />
+      <feComposite
+         operator="in"
+         result="result2"
+         in2="SourceGraphic"
+         in="result6"
+         id="feComposite61" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient67"
+       id="linearGradient68"
+       x1="141.45358"
+       y1="27.172407"
+       x2="141.45358"
+       y2="311.01501"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -56,49 +154,49 @@
     <g
        sodipodi:type="inkscape:box3d"
        id="g1-2"
-       style="fill:#f2f2f2;stroke-width:2.6"
+       style="fill:#e5e5e5;stroke-width:2.6;filter:url(#filter61);fill-opacity:1"
        inkscape:perspectiveID="#perspective1-6"
        inkscape:corner0="-225.49508 : 0.0085868749 : 0 : 1"
        inkscape:corner7="-0.011035444 : 0.014334327 : 868.43453 : 1">
       <path
          sodipodi:type="inkscape:box3dside"
          id="path6-3"
-         style="fill:#f2f2f2;fill-rule:evenodd;stroke:none;stroke-width:5.98387;stroke-linejoin:round"
+         style="fill:#e5e5e5;fill-rule:evenodd;stroke:none;stroke-width:5.98387;stroke-linejoin:round;fill-opacity:1"
          inkscape:box3dsidetype="11"
          d="m -70.810629,147.86409 72.4876483,0.0272 v 0.0109 l -72.4876483,-0.0234 z"
          points="1.6770193,147.89126 1.6770193,147.90216 -70.810629,147.87881 -70.810629,147.86409 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path1-2"
-         style="fill:#f2f2f2;fill-rule:evenodd;stroke:none;stroke-width:5.98387;stroke-linejoin:round"
+         style="fill:#e5e5e5;fill-rule:evenodd;stroke:none;stroke-width:5.98387;stroke-linejoin:round;fill-opacity:1"
          inkscape:box3dsidetype="6"
          d="m 209.14924,148.2694 v -0.0422 l -279.959869,-0.34837 v -0.0147 z"
          points="209.14924,148.22718 -70.810629,147.87881 -70.810629,147.86409 209.14924,148.2694 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path5-2"
-         style="fill:#f2f2f2;fill-rule:evenodd;stroke:none;stroke-width:6.71963;stroke-linejoin:round"
+         style="fill:#e5e5e5;fill-rule:evenodd;stroke:none;stroke-width:6.71963;stroke-linejoin:round;fill-opacity:1"
          inkscape:box3dsidetype="13"
          d="M 209.14924,148.22718 103.96863,89.330202 1.6770193,147.90216 -70.810629,147.87881 Z"
          points="103.96863,89.330202 1.6770193,147.90216 -70.810629,147.87881 209.14924,148.22718 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path2-1"
-         style="fill:#f2f2f2;fill-rule:evenodd;stroke:none;stroke-width:6.71963;stroke-linejoin:round"
+         style="fill:#e5e5e5;fill-rule:evenodd;stroke:none;stroke-width:6.71963;stroke-linejoin:round;fill-opacity:1"
          inkscape:box3dsidetype="5"
          d="M 209.14924,148.2694 103.96863,79.746336 1.6770193,147.89126 -70.810629,147.86409 Z"
          points="103.96863,79.746336 1.6770193,147.89126 -70.810629,147.86409 209.14924,148.2694 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path4-6"
-         style="fill:#f2f2f2;fill-rule:evenodd;stroke:none;stroke-width:6.71963;stroke-linejoin:round"
+         style="fill:#e5e5e5;fill-rule:evenodd;stroke:none;stroke-width:6.71963;stroke-linejoin:round;fill-opacity:1"
          inkscape:box3dsidetype="14"
          d="m 103.96863,79.746336 v 9.583866 L 1.6770193,147.90216 v -0.0109 z"
          points="103.96863,89.330202 1.6770193,147.90216 1.6770193,147.89126 103.96863,79.746336 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path3-8"
-         style="fill:#f2f2f2;fill-rule:evenodd;stroke:none;stroke-width:12.974;stroke-linejoin:round"
+         style="fill:#e5e5e5;fill-rule:evenodd;stroke:none;stroke-width:12.974;stroke-linejoin:round;fill-opacity:1"
          inkscape:box3dsidetype="3"
          d="M 209.14924,148.2694 103.96863,79.746336 v 9.583866 l 105.18061,58.896978 z"
          points="103.96863,79.746336 103.96863,89.330202 209.14924,148.22718 209.14924,148.2694 " />
@@ -113,49 +211,49 @@
     <g
        sodipodi:type="inkscape:box3d"
        id="g1"
-       style="fill:#b3b3b3;stroke-width:2.6"
+       style="fill:url(#linearGradient68);stroke-width:2.6"
        inkscape:perspectiveID="#perspective1"
        inkscape:corner0="-225.49508 : 0.0085868749 : 0 : 1"
        inkscape:corner7="-0.011035444 : 0.014334327 : 868.43453 : 1">
       <path
          sodipodi:type="inkscape:box3dside"
          id="path6"
-         style="fill:#b3b3b3;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:url(#linearGradient68);fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="11"
          d="m 283.37487,148.56354 -73.49297,-0.0165 v -0.007 l 73.49297,0.0142 z"
          points="209.8819,148.54706 209.8819,148.54045 283.37487,148.55461 283.37487,148.56354 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path1"
-         style="fill:#b3b3b3;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:url(#linearGradient68);fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="6"
          d="m -0.46771627,148.31776 v 0.0256 L 283.37487,148.55461 v 0.009 z"
          points="-0.46771627,148.34336 283.37487,148.55461 283.37487,148.56354 -0.46771627,148.31776 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path5"
-         style="fill:#b3b3b3;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:url(#linearGradient68);fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="13"
          d="M -0.46771627,148.34336 106.17165,184.05808 209.8819,148.54045 l 73.49297,0.0142 z"
          points="106.17165,184.05808 209.8819,148.54045 283.37487,148.55461 -0.46771627,148.34336 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path2"
-         style="fill:#b3b3b3;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:url(#linearGradient68);fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="5"
          d="m -0.46771627,148.31776 106.63936627,41.5519 103.71025,-41.3226 73.49297,0.0165 z"
          points="106.17165,189.86966 209.8819,148.54706 283.37487,148.56354 -0.46771627,148.31776 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path4"
-         style="fill:#b3b3b3;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:url(#linearGradient68);fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="14"
          d="m 106.17165,189.86966 v -5.81158 L 209.8819,148.54045 v 0.007 z"
          points="106.17165,184.05808 209.8819,148.54045 209.8819,148.54706 106.17165,189.86966 " />
       <path
          sodipodi:type="inkscape:box3dside"
          id="path3"
-         style="fill:#b3b3b3;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         style="fill:url(#linearGradient68);fill-rule:evenodd;stroke:none;stroke-linejoin:round"
          inkscape:box3dsidetype="3"
          d="M -0.46771627,148.31776 106.17165,189.86966 v -5.81158 L -0.46771627,148.34336 Z"
          points="106.17165,189.86966 106.17165,184.05808 -0.46771627,148.34336 -0.46771627,148.31776 " />
