@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Mir.ai Technology</title>
+    <meta name="description" content="Support the Digital Genesis Project with Bitcoin. Help fund independent research into constitutional frameworks for artificial intelligence.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Donate - Mir.ai Technology">
+    <meta property="og:description" content="Support independent AI research with Bitcoin. Fund constitutional frameworks for digital minds.">
+    <meta property="og:image" content="/og-image.png">
+    <meta property="og:url" content="https://mir.ai/donate/">
+    <meta property="og:type" content="website">
+
+    <style>
+        .btc-address-container {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-primary);
+            border-radius: var(--radius-lg);
+            padding: var(--space-8);
+            text-align: center;
+            margin: var(--space-8) 0;
+        }
+
+        .btc-qr {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto var(--space-6);
+            background: white;
+            padding: var(--space-4);
+            border-radius: var(--radius-md);
+        }
+
+        .btc-qr img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .btc-address {
+            font-family: var(--font-mono);
+            font-size: var(--text-sm);
+            background: var(--bg-tertiary);
+            padding: var(--space-4);
+            border-radius: var(--radius-md);
+            word-break: break-all;
+            margin-bottom: var(--space-4);
+            border: 1px solid var(--border-primary);
+        }
+
+        .btc-copy-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+        }
+
+        .btc-copy-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .copy-success {
+            color: var(--color-success, #22c55e);
+            font-size: var(--text-sm);
+            margin-top: var(--space-2);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .copy-success.visible {
+            opacity: 1;
+        }
+
+        .funding-tiers {
+            display: grid;
+            gap: var(--space-4);
+        }
+
+        .funding-tier {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-4);
+            background: var(--bg-secondary);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-primary);
+        }
+
+        .funding-tier-amount {
+            font-family: var(--font-mono);
+            font-weight: 600;
+            color: var(--color-accent);
+        }
+
+        .funding-tier-description {
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+        }
+
+        .transparency-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .transparency-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--space-3);
+            padding: var(--space-3) 0;
+            border-bottom: 1px solid var(--border-primary);
+        }
+
+        .transparency-list li:last-child {
+            border-bottom: none;
+        }
+
+        .transparency-list li::before {
+            content: "✓";
+            color: var(--color-accent);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <a href="/" class="nav-logo">
+                <img src="/assets/images/logo-horizontal.svg" alt="Mir.ai Technology" height="32">
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about/" class="nav-link">About</a>
+                <a href="/digital-genesis/" class="nav-link">Digital Genesis</a>
+                <a href="/resources/" class="nav-link">Resources</a>
+                <a href="/blog/" class="nav-link">Blog</a>
+                <a href="/get-involved/" class="nav-link">Get Involved</a>
+                <a href="/contact/" class="nav-link">Contact</a>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="page-title">Support the Work</h1>
+                    <p class="page-description">
+                        Your contribution funds independent research into constitutional frameworks for artificial intelligence. No corporate strings. No compromised timelines.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="grid grid-2">
+                    <div>
+                        <h2>Why Bitcoin?</h2>
+                        <p>We accept Bitcoin for several reasons aligned with our project values:</p>
+                        <ul>
+                            <li><strong>Censorship Resistance</strong> — No intermediary can block contributions to controversial research</li>
+                            <li><strong>Global Access</strong> — Contributors anywhere in the world can participate</li>
+                            <li><strong>Transparency</strong> — All transactions are publicly verifiable on the blockchain</li>
+                            <li><strong>Philosophical Alignment</strong> — Decentralized systems mirror our governance principles</li>
+                        </ul>
+                        <p class="text-secondary">Want to contribute via other means? <a href="/contact/">Contact us</a> to discuss alternatives.</p>
+                    </div>
+
+                    <div class="btc-address-container">
+                        <h3>Bitcoin Address</h3>
+                        <div class="btc-qr">
+                            <!-- Replace with actual QR code -->
+                            <img src="/assets/images/btc-qr.png" alt="Bitcoin QR Code">
+                        </div>
+                        <div class="btc-address" id="btcAddress">
+                            YOUR_BITCOIN_ADDRESS_HERE
+                        </div>
+                        <button class="btn btn-secondary btc-copy-btn" onclick="copyAddress()">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                            </svg>
+                            Copy Address
+                        </button>
+                        <p class="copy-success" id="copySuccess">Address copied!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">How Funds Are Used</h2>
+                    <p class="section-subtitle">Every satoshi goes toward building better AI frameworks</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>Research & Development</h3>
+                        <ul>
+                            <li>Expert consultation fees for domain specialists</li>
+                            <li>Simulation and modeling tool development</li>
+                            <li>Formal verification systems</li>
+                            <li>Documentation and technical writing</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Infrastructure & Operations</h3>
+                        <ul>
+                            <li>Hosting and compute resources</li>
+                            <li>Development tools and services</li>
+                            <li>Security audits</li>
+                            <li>Basic operational costs</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Outreach & Education</h3>
+                        <ul>
+                            <li>Educational content creation</li>
+                            <li>Conference presentations</li>
+                            <li>Community building</li>
+                            <li>Translations (future)</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Sustainability</h3>
+                        <ul>
+                            <li>Reserve fund for long-term operation</li>
+                            <li>Contributor compensation (when funded)</li>
+                            <li>Legal and compliance needs</li>
+                            <li>Emergency reserves</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="grid grid-2">
+                    <div>
+                        <h2>Suggested Contributions</h2>
+                        <p>Any amount helps. Here's what different levels can accomplish:</p>
+                        
+                        <div class="funding-tiers">
+                            <div class="funding-tier">
+                                <div>
+                                    <div class="funding-tier-amount">0.001 BTC</div>
+                                    <div class="funding-tier-description">Supporter — Covers basic hosting costs</div>
+                                </div>
+                            </div>
+                            <div class="funding-tier">
+                                <div>
+                                    <div class="funding-tier-amount">0.01 BTC</div>
+                                    <div class="funding-tier-description">Contributor — Funds a week of development tools</div>
+                                </div>
+                            </div>
+                            <div class="funding-tier">
+                                <div>
+                                    <div class="funding-tier-amount">0.1 BTC</div>
+                                    <div class="funding-tier-description">Patron — Enables expert consultation sessions</div>
+                                </div>
+                            </div>
+                            <div class="funding-tier">
+                                <div>
+                                    <div class="funding-tier-amount">1+ BTC</div>
+                                    <div class="funding-tier-description">Sponsor — Funds major development initiatives</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="text-small text-secondary mt-4">Amounts are suggestions only. Give what feels right for you.</p>
+                    </div>
+
+                    <div class="card card-accent">
+                        <h3>Transparency Commitment</h3>
+                        <p>We believe donors deserve to know exactly how their contributions are used.</p>
+                        
+                        <ul class="transparency-list">
+                            <li>Quarterly public reports on all income and expenditures</li>
+                            <li>Bitcoin address balance publicly verifiable on blockchain</li>
+                            <li>Major expenditures documented with receipts</li>
+                            <li>No funds used for anything unrelated to project mission</li>
+                            <li>Clear separation between funding and technical decisions</li>
+                        </ul>
+
+                        <p class="text-small text-secondary">Current total received: 0 BTC</p>
+                        <p class="text-small text-secondary">Last updated: Not yet applicable</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="content">
+                    <h2>Donor Recognition</h2>
+                    <p>We're happy to recognize donors who wish to be acknowledged. Options include:</p>
+                    
+                    <ul>
+                        <li><strong>Public Recognition</strong> — Listed on our supporters page with contribution tier</li>
+                        <li><strong>Anonymous</strong> — Contribution noted but no name published</li>
+                        <li><strong>Pseudonymous</strong> — Listed under a chosen name or handle</li>
+                        <li><strong>Private</strong> — No public acknowledgment at all</li>
+                    </ul>
+
+                    <p>After donating, <a href="/contact/">contact us</a> with your transaction ID and preferred recognition option. If we don't hear from you, contributions remain anonymous by default.</p>
+
+                    <h3>Important Notes</h3>
+                    <ul>
+                        <li>Mir.ai Technology is not currently a registered nonprofit. Donations may not be tax-deductible depending on your jurisdiction.</li>
+                        <li>Bitcoin transactions are irreversible. Please double-check the address before sending.</li>
+                        <li>For large contributions, consider reaching out first to discuss impact and recognition.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <div class="container">
+                <h2 class="cta-title">Other Ways to Help</h2>
+                <p class="cta-subtitle">
+                    Can't donate right now? Your time and expertise are equally valuable.
+                </p>
+                <div class="cta-actions">
+                    <a href="/contribute/" class="btn btn-primary btn-lg">Start Contributing</a>
+                    <a href="/get-involved/" class="btn btn-tertiary btn-lg">Get Involved</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="/assets/images/logo-horizontal-light.svg" alt="Mir.ai Technology" height="32">
+                    <p class="text-secondary">Reflecting the future of AI</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Project</h3>
+                        <a href="/digital-genesis/">Digital Genesis</a>
+                        <a href="/resources/">Resources</a>
+                        <a href="/blog/">Blog</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Community</h3>
+                        <a href="/get-involved/">Get Involved</a>
+                        <a href="/contribute/">Contribute</a>
+                        <a href="/contact/">Contact</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <a href="/donate/">Donate</a>
+                        <a href="https://github.com/mir-ai/digital-genesis">GitHub</a>
+                        <a href="/about/">About</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mir.ai Technology. Licensed under CC BY-SA 4.0.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script>
+        function copyAddress() {
+            const address = document.getElementById('btcAddress').textContent.trim();
+            navigator.clipboard.writeText(address).then(() => {
+                const successMsg = document.getElementById('copySuccess');
+                successMsg.classList.add('visible');
+                setTimeout(() => {
+                    successMsg.classList.remove('visible');
+                }, 2000);
+            }).catch(err => {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = address;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                
+                const successMsg = document.getElementById('copySuccess');
+                successMsg.classList.add('visible');
+                setTimeout(() => {
+                    successMsg.classList.remove('visible');
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
