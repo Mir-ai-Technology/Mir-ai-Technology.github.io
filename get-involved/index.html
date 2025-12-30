@@ -25,29 +25,41 @@
     <meta property="og:type" content="website">
 </head>
 <body>
-    <nav class="nav">
-        <div class="container">
-            <a href="/" class="nav-logo">
-                <img src="/assets/images/logo-horizontal.svg" alt="Mir.ai Technology" height="32">
-            </a>
-            
-            <div class="nav-menu" id="navMenu">
-                <a href="/" class="nav-link">Home</a>
-                <a href="/about/" class="nav-link">About</a>
-                <a href="/digital-genesis/" class="nav-link">Digital Genesis</a>
-                <a href="/resources/" class="nav-link">Resources</a>
-                <a href="/blog/" class="nav-link">Blog</a>
-                <a href="/get-involved/" class="nav-link nav-link-active">Get Involved</a>
-                <a href="/contact/" class="nav-link">Contact</a>
-            </div>
-            
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
+    <header class="site-header">
+    <nav class="nav container">
+      <a href="/" class="nav-logo">
+        <img src="/assets/images/mir.ai.logo.svg" alt="Mir.ai Technology" width="140" height="32">
+      </a>
+      <ul class="nav-menu">
+      <div class="nav-menu" id="navMenu">
+         <a href="/" class="nav-link">Home</a>
+         <a href="/about/" class="nav-link">About</a>
+         <a href="/digital-genesis/" class="nav-link">Digital Genesis</a>
+         <a href="/resources/" class="nav-link">Resources</a>
+         <a href="/blog/" class="nav-link">Blog</a>
+         <a href="/get-involved/" class="nav-link nav-link-active">Get Involved</a>
+         <a href="/contact/" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <a href="https://github.com/ir-ai-Technology/digital-genesis" class="nav-icon" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 M0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1."/></svg>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+      </div>
     </nav>
+    <div class="mobile-menu">
+      <a href="/about/">About</a>
+      <a href="/digital-genesis/">Digital Genesis</a>
+      <a href="/resources/">Resources</a>
+      <a href="/blog/" class="active">Blog</a>
+      <a href="/contact/">Contact</a>
+    </div>
+  </header>
+
 
     <main>
         <div class="page-header">
