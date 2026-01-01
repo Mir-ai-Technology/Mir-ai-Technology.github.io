@@ -998,6 +998,112 @@ blockquote {
   }
 }
 
+
+        .btc-address-container {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-primary);
+            border-radius: var(--radius-lg);
+            padding: var(--space-8);
+            text-align: center;
+            margin: var(--space-8) 0;
+        }
+
+        .btc-qr {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto var(--space-6);
+            background: white;
+            padding: var(--space-4);
+            border-radius: var(--radius-md);
+        }
+
+        .btc-qr img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .btc-address {
+            font-family: var(--font-mono);
+            font-size: var(--text-sm);
+            background: var(--bg-tertiary);
+            padding: var(--space-4);
+            border-radius: var(--radius-md);
+            word-break: break-all;
+            margin-bottom: var(--space-4);
+            border: 1px solid var(--border-primary);
+        }
+
+        .btc-copy-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+        }
+
+        .btc-copy-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .copy-success {
+            color: var(--color-success, #22c55e);
+            font-size: var(--text-sm);
+            margin-top: var(--space-2);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .copy-success.visible {
+            opacity: 1;
+        }
+
+        .funding-tiers {
+            display: grid;
+            gap: var(--space-4);
+        }
+
+        .funding-tier {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-4);
+            background: var(--bg-secondary);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-primary);
+        }
+
+        .funding-tier-amount {
+            font-family: var(--font-mono);
+            font-weight: 600;
+            color: var(--color-accent);
+        }
+
+        .funding-tier-description {
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+        }
+
+        .transparency-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .transparency-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--space-3);
+            padding: var(--space-3) 0;
+            border-bottom: 1px solid var(--border-primary);
+        }
+
+        .transparency-list li:last-child {
+            border-bottom: none;
+        }
+
+        .transparency-list li::before {
+            content: "✓";
+            color: var(--color-accent);
+            font-weight: bold;
+        }
 /* -------------------------
    Utilities
    ------------------------- */
