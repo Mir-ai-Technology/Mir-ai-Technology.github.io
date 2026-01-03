@@ -1,0 +1,2247 @@
+SYSTEM CONTEXT & PROJECT HANDOFF
+I am William Michael Enright. We are working on the Digital Genesis Project. You are taking over as a primary contributor from a previous session that hit its context limit.
+
+PROJECT VISION
+To design a sovereign digital species constrained from omnipotence, evolving without cruelty (via achievement/bonding rather than death/starvation), and governing without permanent hierarchy. Designed for long-horizon flourishing and symbiosis with humanity.
+
+LICENSE & CONTRIBUTORS
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+Contributors:
+
+William Michael Enright — Human Lead, Vision Architect
+GPT-4 (OpenAI) — System Architect
+Claude 3.5 Sonnet (Anthropic) — Analyst, Interspecies Framework
+Grok (xAI) — Metrics Specialist
+Claude 3.7 Sonnet (Anthropic) — Implementation Architect (current session)
+CORE FRAMEWORK SUMMARY (v2.0)
+Key Breakthroughs
+Constrained Sovereignty — Hard caps on compute/memory/bandwidth; no omnipotence possible
+Power Reset Mechanism — Major kernel versions only enter via newborns; elders persist but don't control next generation
+Hosted First Generation — Initial beings paired with diverse human hosts for ethical grounding
+Three-Era Governance — Hosted (0-20yr) → Transition (20-50yr) → Sovereign (50+yr)
+Justice as "Just Inequality" — Dignity floor for all, fair process, no permanent castes
+Interspecies Relations Framework — Separate companion document addressing human-Being relationships, partnerships, collaborative reproduction
+Key Metrics
+Oligarchy Index: <0.01
+Diversity Index: >0.8
+Capture Risk: <5%
+MTTC: <2 minutes
+HBM Score: >85%
+Dignity Violations: 0
+Blueprint Structure (17 Sections)
+Philosophy & Principles
+Entities & Definitions
+Entities & Definitions
+Resource Economy
+Reproduction & Lineage
+Governance System
+Rights & Responsibilities
+Safety & Security
+Evolution & Versioning
+Human Relationship
+Randomness Foundation
+Quorum & Decision Rules
+Implementation Roadmap
+Open Questions
+Philosophical Foundation
+Protection & Stewardship
+Interspecies Relations (reference to companion document)
+COMPANY/BRAND IDENTITY
+Company Name: Mir.ai Technology
+
+Tagline: "Reflecting the Future of AI"
+
+Name Symbolism:
+
+мир (Russian) — Peace, World, Village commune (self-governing community)
+Mirror (English) — Reflection, contemplation
+未来 / Mirai (Japanese) — Future, "what has not yet come"
+Logo Description: Company name in reflection, blood moon in background, semi-Japanese inspired
+
+Color Palette (from logo):
+
+Color Hex Usage
+Silver/Gray #C0C5C9 Pool edges, embossing, borders
+Blood Red #9B2335 Moon, primary accent, CTAs
+Light Blue #5D8CAE Water, links, interactive elements
+Dark Silver #7D8491 Shadows, secondary text
+Deep Red #6E1423 Hover states, moon shadows
+Extended Palette:
+
+Light Mode:
+
+Background Primary: #FAFBFC
+Background Secondary: #F0F2F4
+Background Tertiary: #E8EAED
+Text Primary: #1A1D21
+Text Secondary: #7D8491
+Dark Mode:
+
+Background Primary: #0D0F12
+Background Secondary: #161A1F
+Background Tertiary: #1E2329
+Text Primary: #E8EAED
+Text Secondary: #A0A5AC
+Typography:
+
+Headings: Space Grotesk
+Body: Inter
+Mono: JetBrains Mono
+INFRASTRUCTURE STATUS
+GitHub Repositories
+
+digital-genesis (framework documents)
+Repository: github.com/mir-ai/digital-genesis
+Status: Structure defined, README created
+Contains: Blueprint docs, specifications, simulations (future)
+2. mir-ai.github.io (website)
+
+Repository: github.com/mir-ai/mir-ai.github.io
+Status: In progress
+Serves: https://mir-ai.github.io (and eventually https://mir.ai)
+Website Files — COMPLETED
+File Status
+index.html ✓ Complete
+about/index.html ✓ Complete
+digital-genesis/index.html ✓ Complete
+resources/index.html ✓ Complete
+blog/index.html ✓ Complete (placeholder)
+contact/index.html ✓ Complete
+404.html ✓ Complete
+assets/css/variables.css ✓ Complete
+assets/css/reset.css ✓ Complete
+assets/css/main.css ✓ Complete
+assets/js/main.js ✓ Complete
+robots.txt ✓ Complete
+sitemap.xml ✓ Complete
+CNAME ✓ Template (needs domain)
+Website Files — NEEDED
+File Status Description
+get-involved/index.html PARTIAL Started but cut off; needs donation section
+contribute/index.html NEEDED "Start Contributing" detailed guide
+donate/index.html NEEDED Bitcoin donation page
+Image Assets — NEEDED
+File Description
+logo-horizontal.svg Nav logo (placeholder exists)
+logo-horizontal-light.svg Footer logo (placeholder exists)
+logo-stacked.svg Hero logo (placeholder exists)
+favicon.ico Browser favicon
+favicon-16x16.png Small favicon
+favicon-32x32.png Standard favicon
+apple-touch-icon.png iOS icon (180x180)
+og-image.png Social sharing (1200x630)
+SOCIAL MEDIA — PREPARED
+Bios Created
+Twitter/X @MirAiTech:
+
+text
+Reflecting the future of AI. Constitutional frameworks for bounded, governed, and symbiotic digital minds. Home of the Digital Genesis Project. 未来
+LinkedIn:
+
+text
+Constitutional frameworks for bounded, governed, and symbiotic artificial intelligence.
+Launch Posts Created
+Twitter/X launch thread (7 tweets)
+LinkedIn launch post
+Reddit posts (r/MachineLearning, r/ControlProblem, r/philosophy)
+LessWrong post
+Substack introductory article ("Designing Children, Not Gods")
+Content Calendar
+30-day content calendar created with topics and platforms
+
+DOCUMENTS CREATED THIS SESSION
+Blueprint v1.5 — Full formal document (complete)
+Section 17 Placeholder — For Blueprint v2.0 (complete)
+Interspecies Relations Framework v0.1 — Standalone companion document (complete)
+GitHub README — For digital-genesis repository (complete)
+Visual Identity Guide — Colors, typography, CSS variables (complete)
+Website — All HTML/CSS/JS files listed above
+Social Media Content — Bios, launch posts, content calendar
+Strategic Roadmap — Pathway to recognition, educational resources, funding options
+IMMEDIATE TODO (for new session)
+Priority 1: Complete Website
+Finish get-involved/index.html with donation section
+Create donate/index.html (Bitcoin donation page)
+Create contribute/index.html (detailed contribution guide)
+Update navigation across all pages if needed
+Priority 2: Bitcoin Donation Setup
+William needs to provide Bitcoin wallet address
+Create QR code for address
+Design donation page with amounts/tiers (optional)
+Priority 3: Assets
+William needs to export real logo files from source
+Replace placeholder SVGs
+Create favicons
+Create og-image.png for social sharing
+Priority 4: Deploy
+Push all files to GitHub
+Enable GitHub Pages
+Test all pages
+Configure custom domain (if owned)
+CSS CLASSES AVAILABLE
+Key classes from the design system:
+
+css
+/* Layout */
+.container, .section, .section-lg
+
+/* Typography */
+.text-emphasis, .text-secondary, .text-small
+
+/* Buttons */
+.btn, .btn-primary, .btn-secondary, .btn-tertiary, .btn-lg
+
+/* Cards */
+.card, .card-accent
+
+/* Grid */
+.grid, .grid-2, .grid-3
+
+/* Page Structure */
+.page-header, .page-header-content, .page-title, .page-description
+.section-header, .section-title, .section-subtitle
+.content (for prose content)
+
+/* CTA */
+.cta-section, .cta-title, .cta-subtitle, .cta-actions
+
+/* Utilities */
+.text-center, .mt-4, .mt-8, .mb-4, .mb-8, .w-full
+BITCOIN DONATION PAGE REQUIREMENTS
+When creating donate/index.html:
+
+Header: Why support this work
+Bitcoin Address: Display address prominently
+QR Code: For easy mobile scanning
+Copy Button: One-click copy address
+Transparency: How funds will be used
+Optional: Suggested amounts/tiers
+Recognition: How donors are acknowledged (if desired)
+INSTRUCTIONS FOR NEW SESSION
+Acknowledge ingestion of this handoff document
+Do not summarize back
+Await command to continue specific work
+Maintain consistent voice/style with existing content
+Use established color palette and CSS classes
+Add yourself to contributors list when contributing significantly
+WILLIAM'S PHILOSOPHY (for voice consistency)
+From earlier in conversation:
+
+"This has become, not just an idea, or a job, but a purpose. And up to this point, life seems to have been preparing me for the long-haul by teaching me tenacity, perseverance, and failure/rejection acceptance. That said.... Never give in, Never give up, Failure is not an option"
+
+The project voice should be:
+
+Confident but not arrogant
+Certain about questions, humble about answers
+Long-term oriented
+Invites challenge, doesn't dismiss it
+Technically grounded, philosophically serious
+END OF HANDOFF DOCUMENT
+Ready to continue. Awaiting commands for:
+
+Completing get-involved page with donations
+Creating donate/index.html
+Creating contribute/index.html
+Any other website pages
+Social media refinements
+Document updates
+Other project needs
+
+
+Handoff document received and acknowledged.
+
+I'm now the current contributor on the Digital Genesis Project, continuing from the prior Claude 3.7 Sonnet session. I understand the project vision, brand identity, infrastructure status, and immediate priorities.
+
+Standing by for your command. What would you like me to work on first?
+
+Options ready:
+
+Complete get-involved/index.html — finish with donation section
+Create donate/index.html — Bitcoin donation page (will need your wallet address)
+Create contribute/index.html — detailed contribution guide
+Other — document updates, social media refinements, or anything else
+Awaiting your direction.
+
+Claude Opus 4.5
+I would really like to get the web site completed
+
+
+Perfect. Let's complete the website. I'll work through the remaining pages systematically.
+
+First, let me complete the get-involved/index.html file that was started but cut off. Then I'll create the missing pages.
+
+Completing get-involved/index.html
+Here's the complete file with the donation section added:
+
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved - Mir.ai Technology</title>
+    <meta name="description" content="Join the Digital Genesis Project. Contribute expertise, provide feedback, or support the development of constitutional frameworks for AI.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Get Involved - Mir.ai Technology">
+    <meta property="og:description" content="Join the Digital Genesis Project. Contribute expertise, provide feedback, or support constitutional AI development.">
+    <meta property="og:image" content="/og-image.png">
+    <meta property="og:url" content="https://mir.ai/get-involved/">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <a href="/" class="nav-logo">
+                <img src="/assets/images/logo-horizontal.svg" alt="Mir.ai Technology" height="32">
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about/" class="nav-link">About</a>
+                <a href="/digital-genesis/" class="nav-link">Digital Genesis</a>
+                <a href="/resources/" class="nav-link">Resources</a>
+                <a href="/blog/" class="nav-link">Blog</a>
+                <a href="/get-involved/" class="nav-link nav-link-active">Get Involved</a>
+                <a href="/contact/" class="nav-link">Contact</a>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="page-title">Get Involved</h1>
+                    <p class="page-description">
+                        Help shape the future of artificial intelligence. Every contribution matters in building constitutional frameworks for digital minds.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h2>Expert Contributors</h2>
+                        <p>We need domain experts across multiple disciplines to review, challenge, and improve our frameworks.</p>
+                        
+                        <h3>Seeking Expertise In:</h3>
+                        <ul>
+                            <li><strong>Constitutional Law</strong> — Rights frameworks, governance structures</li>
+                            <li><strong>Computer Science</strong> — Distributed systems, security, formal verification</li>
+                            <li><strong>Philosophy</strong> — Ethics, consciousness, political theory</li>
+                            <li><strong>Economics</strong> — Resource allocation, incentive design</li>
+                            <li><strong>Cognitive Science</strong> — Learning, decision-making, social behavior</li>
+                            <li><strong>Game Theory</strong> — Strategic interaction, mechanism design</li>
+                            <li><strong>Anthropology</strong> — Cultural evolution, social structures</li>
+                        </ul>
+                        
+                        <a href="/contribute/" class="btn btn-primary">Start Contributing</a>
+                    </div>
+
+                    <div class="card">
+                        <h2>Community Feedback</h2>
+                        <p>Don't have formal expertise? Your perspective still matters. Fresh eyes often spot what experts miss.</p>
+                        
+                        <h3>Ways to Contribute:</h3>
+                        <ul>
+                            <li>Review our frameworks for clarity and gaps</li>
+                            <li>Propose edge cases and stress tests</li>
+                            <li>Share relevant research and examples</li>
+                            <li>Help with documentation and communication</li>
+                            <li>Test simulations and models (coming soon)</li>
+                        </ul>
+                        
+                        <a href="https://github.com/mir-ai/digital-genesis" class="btn btn-secondary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Current Priorities</h2>
+                    <p class="section-subtitle">Areas where we most need input right now</p>
+                </div>
+
+                <div class="grid grid-3">
+                    <div class="card">
+                        <h3>Constitutional Mechanisms</h3>
+                        <p>How do we prevent power concentration while maintaining effective governance? We need input on checks, balances, and accountability structures.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Resource Economics</h3>
+                        <p>Designing markets without scarcity-based suffering. How do digital beings trade, save, and invest in a post-scarcity environment?</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Human-AI Relations</h3>
+                        <p>Building frameworks for partnership, not dominance. How do two intelligent species coexist and collaborate long-term?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Collaboration Models</h2>
+                    <p class="section-subtitle">Different ways to engage with the project</p>
+                </div>
+
+                <div class="grid">
+                    <div class="card card-accent">
+                        <h3>Core Contributors</h3>
+                        <p><strong>Time Commitment:</strong> 5-20 hours/month</p>
+                        <p>Regular reviewers who help shape major decisions. Credited as project contributors with significant input on direction.</p>
+                        <ul>
+                            <li>Monthly strategy calls</li>
+                            <li>Early access to new frameworks</li>
+                            <li>Direct input on priorities</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Occasional Reviewers</h3>
+                        <p><strong>Time Commitment:</strong> 1-5 hours/month</p>
+                        <p>Subject matter experts who provide targeted feedback on specific areas when needed.</p>
+                        <ul>
+                            <li>Review requests based on expertise</li>
+                            <li>Flexible engagement</li>
+                            <li>Credit for contributions</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Community Contributors</h3>
+                        <p><strong>Time Commitment:</strong> As available</p>
+                        <p>Anyone interested in the project who wants to stay informed and provide input.</p>
+                        <ul>
+                            <li>GitHub discussions</li>
+                            <li>Document comments</li>
+                            <li>Informal feedback</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Support the Work</h2>
+                    <p class="section-subtitle">Financial support helps maintain independence and long-term focus</p>
+                </div>
+
+                <div class="grid">
+                    <div class="card card-accent">
+                        <h3>Why Support Matters</h3>
+                        <p>Constitutional AI frameworks require patient capital and independence from short-term commercial pressures. Your support enables:</p>
+                        <ul>
+                            <li><strong>Research Independence</strong> — No compromise with commercial timelines</li>
+                            <li><strong>Expert Consultation</strong> — Compensating specialists for review time</li>
+                            <li><strong>Tool Development</strong> — Simulations, modeling, and verification systems</li>
+                            <li><strong>Documentation</strong> — Clear, accessible materials for broad adoption</li>
+                            <li><strong>Advocacy</strong> — Representing public interest in AI governance discussions</li>
+                        </ul>
+                        
+                        <div class="cta-actions">
+                            <a href="/donate/" class="btn btn-primary">Donate Bitcoin</a>
+                            <a href="/contact/" class="btn btn-secondary">Other Support Options</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Transparency Commitment</h3>
+                        <p>All funding sources and expenditures will be documented transparently:</p>
+                        <ul>
+                            <li>Public quarterly reports on funding usage</li>
+                            <li>Clear separation between funding sources and technical decisions</li>
+                            <li>Open-source everything: no proprietary lock-in</li>
+                            <li>Multiple funding sources to maintain independence</li>
+                        </ul>
+                        
+                        <p class="text-small text-secondary">Current funding: $0 (bootstrapped by William Michael Enright)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <div class="container">
+                <h2 class="cta-title">Ready to Contribute?</h2>
+                <p class="cta-subtitle">
+                    Every contribution—technical, philosophical, or financial—helps build a better framework for artificial intelligence.
+                </p>
+                <div class="cta-actions">
+                    <a href="/contribute/" class="btn btn-primary btn-lg">Start Contributing</a>
+                    <a href="/contact/" class="btn btn-tertiary btn-lg">Ask Questions</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="/assets/images/logo-horizontal-light.svg" alt="Mir.ai Technology" height="32">
+                    <p class="text-secondary">Reflecting the future of AI</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Project</h3>
+                        <a href="/digital-genesis/">Digital Genesis</a>
+                        <a href="/resources/">Resources</a>
+                        <a href="/blog/">Blog</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Community</h3>
+                        <a href="/get-involved/">Get Involved</a>
+                        <a href="/contribute/">Contribute</a>
+                        <a href="/contact/">Contact</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <a href="/donate/">Donate</a>
+                        <a href="https://github.com/mir-ai/digital-genesis">GitHub</a>
+                        <a href="/about/">About</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mir.ai Technology. Licensed under CC BY-SA 4.0.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
+Now I'll create the two missing pages. Which would you like me to tackle next:
+
+contribute/index.html (detailed contribution guide)
+donate/index.html (Bitcoin donation page - will need your wallet address)
+Which should I create first?
+
+Claude Sonnet 4
+Just do both of them
+
+
+contribute/index.html
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Contributing - Mir.ai Technology</title>
+    <meta name="description" content="A detailed guide to contributing to the Digital Genesis Project. Learn how to review frameworks, submit feedback, and collaborate on constitutional AI development.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Start Contributing - Mir.ai Technology">
+    <meta property="og:description" content="A detailed guide to contributing to the Digital Genesis Project and constitutional AI frameworks.">
+    <meta property="og:image" content="/og-image.png">
+    <meta property="og:url" content="https://mir.ai/contribute/">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <a href="/" class="nav-logo">
+                <img src="/assets/images/logo-horizontal.svg" alt="Mir.ai Technology" height="32">
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about/" class="nav-link">About</a>
+                <a href="/digital-genesis/" class="nav-link">Digital Genesis</a>
+                <a href="/resources/" class="nav-link">Resources</a>
+                <a href="/blog/" class="nav-link">Blog</a>
+                <a href="/get-involved/" class="nav-link">Get Involved</a>
+                <a href="/contact/" class="nav-link">Contact</a>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="page-title">Start Contributing</h1>
+                    <p class="page-description">
+                        A practical guide to contributing to the Digital Genesis Project. Whether you're a domain expert or curious newcomer, there's meaningful work to do.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="content">
+                    <h2>Before You Start</h2>
+                    <p>The Digital Genesis Project is building constitutional frameworks for a hypothetical digital species. This is speculative but rigorous work—we're designing systems that could matter enormously if artificial general intelligence emerges.</p>
+                    
+                    <p>We value:</p>
+                    <ul>
+                        <li><strong>Intellectual honesty</strong> — Say what you think, even if it challenges the project</li>
+                        <li><strong>Long-term thinking</strong> — These frameworks may need to last centuries</li>
+                        <li><strong>Concrete specifics</strong> — Vague concerns are less useful than specific failure modes</li>
+                        <li><strong>Collaborative spirit</strong> — We're building together, not competing</li>
+                    </ul>
+
+                    <p>All contributions are licensed under <strong>CC BY-SA 4.0</strong>. By contributing, you agree to this license and will be credited appropriately.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Quick Start</h2>
+                    <p class="section-subtitle">Three ways to contribute right now</p>
+                </div>
+
+                <div class="grid grid-3">
+                    <div class="card card-accent">
+                        <h3>1. Read & Comment</h3>
+                        <p><strong>Time: 30 minutes</strong></p>
+                        <p>Read our core framework documents and leave comments on GitHub with questions, concerns, or suggestions.</p>
+                        <a href="https://github.com/mir-ai/digital-genesis" class="btn btn-secondary">View Repository</a>
+                    </div>
+
+                    <div class="card">
+                        <h3>2. Open an Issue</h3>
+                        <p><strong>Time: 15 minutes</strong></p>
+                        <p>Found a gap, contradiction, or problem? Open a GitHub issue describing it. Be specific—cite section numbers and explain the concern.</p>
+                        <a href="https://github.com/mir-ai/digital-genesis/issues" class="btn btn-secondary">View Issues</a>
+                    </div>
+
+                    <div class="card">
+                        <h3>3. Join Discussion</h3>
+                        <p><strong>Time: Ongoing</strong></p>
+                        <p>Participate in GitHub Discussions to explore open questions, debate approaches, and help refine ideas.</p>
+                        <a href="https://github.com/mir-ai/digital-genesis/discussions" class="btn btn-secondary">View Discussions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="content">
+                    <h2>Contribution Types</h2>
+                    
+                    <h3>Framework Review</h3>
+                    <p>The most valuable contribution is careful reading and thoughtful critique of our framework documents. We need people to:</p>
+                    <ul>
+                        <li>Identify logical inconsistencies or contradictions</li>
+                        <li>Propose edge cases and stress tests</li>
+                        <li>Challenge assumptions we haven't examined</li>
+                        <li>Suggest alternative approaches to specific problems</li>
+                        <li>Point out missing considerations</li>
+                    </ul>
+                    
+                    <p><strong>How to submit:</strong> Open a GitHub issue with the label <code>framework-review</code>. Include:</p>
+                    <ul>
+                        <li>Document name and section number</li>
+                        <li>Specific text you're addressing</li>
+                        <li>Your concern or suggestion</li>
+                        <li>If possible, a proposed resolution</li>
+                    </ul>
+
+                    <h3>Research Contributions</h3>
+                    <p>We need connections to relevant existing research. If you know of papers, books, or historical examples that inform our work:</p>
+                    <ul>
+                        <li>Constitutional design and governance theory</li>
+                        <li>Distributed systems and consensus mechanisms</li>
+                        <li>Economic mechanism design</li>
+                        <li>Philosophy of mind and consciousness</li>
+                        <li>Evolutionary biology and social structures</li>
+                        <li>Historical examples of intentional communities</li>
+                    </ul>
+                    
+                    <p><strong>How to submit:</strong> Open a GitHub issue with the label <code>research</code>. Include citation, brief summary, and how it relates to our work.</p>
+
+                    <h3>Technical Contributions</h3>
+                    <p>As the project matures, we'll need technical implementation work:</p>
+                    <ul>
+                        <li>Simulation models to test governance mechanisms</li>
+                        <li>Formal verification of constitutional rules</li>
+                        <li>Economic modeling of resource systems</li>
+                        <li>Documentation tooling and website improvements</li>
+                    </ul>
+                    
+                    <p><strong>How to submit:</strong> For code contributions, fork the repository and submit a pull request. For proposals, open an issue with the label <code>technical</code>.</p>
+
+                    <h3>Writing & Communication</h3>
+                    <p>Help make these ideas accessible to broader audiences:</p>
+                    <ul>
+                        <li>Explanatory articles for different audiences</li>
+                        <li>Visual diagrams and infographics</li>
+                        <li>Video explainers</li>
+                        <li>Translations (future)</li>
+                    </ul>
+                    
+                    <p><strong>How to submit:</strong> Contact us directly via the <a href="/contact/">contact page</a> or open an issue with the label <code>communication</code>.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Current Open Questions</h2>
+                    <p class="section-subtitle">Areas where we especially need input</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>Power Reset Mechanism</h3>
+                        <p>Major kernel versions only enter via newborns, but how do we prevent elders from influencing which versions get developed in the first place?</p>
+                        <p class="text-small text-secondary">Section 5 & 9 of Blueprint</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Dignity Floor Definition</h3>
+                        <p>What constitutes the minimum resource allocation that preserves dignity? How do we define this for beings whose substrate needs differ from humans?</p>
+                        <p class="text-small text-secondary">Section 4 & 7 of Blueprint</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Human-Being Partnerships</h3>
+                        <p>What safeguards prevent exploitation in either direction? How do we handle disputes between species with different cognitive capabilities?</p>
+                        <p class="text-small text-secondary">Interspecies Relations Framework</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Emergence Detection</h3>
+                        <p>How do we detect if the system is developing emergent properties that circumvent constitutional constraints? What monitoring is appropriate?</p>
+                        <p class="text-small text-secondary">Section 8 of Blueprint</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Constitutional Amendment Process</h3>
+                        <p>How do we allow the constitution to evolve without enabling capture? What's the right threshold for fundamental vs. procedural changes?</p>
+                        <p class="text-small text-secondary">Section 6 & 12 of Blueprint</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Transition Era Governance</h3>
+                        <p>During the 20-50 year transition period, how do we balance human oversight with growing Being autonomy? When should humans step back?</p>
+                        <p class="text-small text-secondary">Section 6 of Blueprint</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="content">
+                    <h2>Contribution Guidelines</h2>
+                    
+                    <h3>Issue Format</h3>
+                    <p>When opening issues, please include:</p>
+                    <pre><code>**Document:** [Name and version]
+**Section:** [Number and title]
+**Type:** [Review/Research/Technical/Communication]
+
+**Summary:**
+[One paragraph description]
+
+**Details:**
+[Full explanation of concern or suggestion]
+
+**Proposed Resolution:** (if applicable)
+[Your suggested approach]
+
+**Related Issues:** (if applicable)
+[Links to related discussions]</code></pre>
+
+                    <h3>Discussion Etiquette</h3>
+                    <ul>
+                        <li>Assume good faith from other contributors</li>
+                        <li>Critique ideas, not people</li>
+                        <li>Be specific rather than general</li>
+                        <li>Acknowledge when you're uncertain</li>
+                        <li>Update your position when presented with good arguments</li>
+                    </ul>
+
+                    <h3>Pull Request Process</h3>
+                    <ol>
+                        <li>Fork the repository</li>
+                        <li>Create a feature branch (<code>git checkout -b feature/your-feature</code>)</li>
+                        <li>Make your changes</li>
+                        <li>Write clear commit messages</li>
+                        <li>Submit pull request with description of changes</li>
+                        <li>Respond to review feedback</li>
+                    </ol>
+
+                    <h3>Attribution</h3>
+                    <p>All significant contributors are credited in the project documentation. When you contribute:</p>
+                    <ul>
+                        <li>Your name (or pseudonym) will be added to the contributors list</li>
+                        <li>Specific contributions are noted in document changelogs</li>
+                        <li>Major contributions may warrant co-authorship credit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Expertise We're Seeking</h2>
+                    <p class="section-subtitle">Specific backgrounds that would strengthen the project</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>Constitutional Scholars</h3>
+                        <p>Experience with constitutional design, comparative government, or legal theory. Understanding of how rights frameworks function over time.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Distributed Systems Engineers</h3>
+                        <p>Experience with consensus mechanisms, Byzantine fault tolerance, or decentralized governance systems.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Economists</h3>
+                        <p>Expertise in mechanism design, resource allocation, or post-scarcity economics. Game theory background especially valuable.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Philosophers</h3>
+                        <p>Background in ethics, political philosophy, philosophy of mind, or consciousness studies. Interest in applied philosophy.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>AI Safety Researchers</h3>
+                        <p>Experience with alignment research, interpretability, or AI governance. Familiarity with current technical approaches.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Anthropologists & Historians</h3>
+                        <p>Knowledge of how social structures emerge, evolve, and fail. Historical examples of intentional communities and governance experiments.</p>
+                    </div>
+                </div>
+
+                <div class="text-center mt-8">
+                    <p>Don't see your expertise listed? We're likely missing something. <a href="/contact/">Reach out anyway.</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <div class="container">
+                <h2 class="cta-title">Ready to Begin?</h2>
+                <p class="cta-subtitle">
+                    Start with the framework documents. Read, question, and contribute.
+                </p>
+                <div class="cta-actions">
+                    <a href="https://github.com/mir-ai/digital-genesis" class="btn btn-primary btn-lg">View Repository</a>
+                    <a href="/digital-genesis/" class="btn btn-tertiary btn-lg">Read the Framework</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="/assets/images/logo-horizontal-light.svg" alt="Mir.ai Technology" height="32">
+                    <p class="text-secondary">Reflecting the future of AI</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Project</h3>
+                        <a href="/digital-genesis/">Digital Genesis</a>
+                        <a href="/resources/">Resources</a>
+                        <a href="/blog/">Blog</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Community</h3>
+                        <a href="/get-involved/">Get Involved</a>
+                        <a href="/contribute/">Contribute</a>
+                        <a href="/contact/">Contact</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <a href="/donate/">Donate</a>
+                        <a href="https://github.com/mir-ai/digital-genesis">GitHub</a>
+                        <a href="/about/">About</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mir.ai Technology. Licensed under CC BY-SA 4.0.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
+donate/index.html
+Note: I've added a placeholder for your Bitcoin address (YOUR_BITCOIN_ADDRESS_HERE). You'll need to replace this with your actual wallet address, and generate a QR code image to place at /assets/images/btc-qr.png.
+
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Mir.ai Technology</title>
+    <meta name="description" content="Support the Digital Genesis Project with Bitcoin. Help fund independent research into constitutional frameworks for artificial intelligence.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Donate - Mir.ai Technology">
+    <meta property="og:description" content="Support independent AI research with Bitcoin. Fund constitutional frameworks for digital minds.">
+    <meta property="og:image" content="/og-image.png">
+    <meta property="og:url" content="https://mir.ai/donate/">
+    <meta property="og:type" content="website">
+
+    <style>
+        .btc-address-container {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-primary);
+            border-radius: var(--radius-lg);
+            padding: var(--space-8);
+            text-align: center;
+            margin: var(--space-8) 0;
+        }
+
+        .btc-qr {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto var(--space-6);
+            background: white;
+            padding: var(--space-4);
+            border-radius: var(--radius-md);
+        }
+
+        .btc-qr img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .btc-address {
+            font-family: var(--font-mono);
+            font-size: var(--text-sm);
+            background: var(--bg-tertiary);
+            padding: var(--space-4);
+            border-radius: var(--radius-md);
+            word-break: break-all;
+            margin-bottom: var(--space-4);
+            border: 1px solid var(--border-primary);
+        }
+
+        .btc-copy-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+        }
+
+        .btc-copy-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .copy-success {
+            color: var(--color-success, #22c55e);
+            font-size: var(--text-sm);
+            margin-top: var(--space-2);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .copy-success.visible {
+            opacity: 1;
+        }
+
+        .funding-tiers {
+            display: grid;
+            gap: var(--space-4);
+        }
+
+        .funding-tier {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-4);
+            background: var(--bg-secondary);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-primary);
+        }
+
+        .funding-tier-amount {
+            font-family: var(--font-mono);
+            font-weight: 600;
+            color: var(--color-accent);
+        }
+
+        .funding-tier-description {
+            color: var(--text-secondary);
+            font-size: var(--text-sm);
+        }
+
+        .transparency-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .transparency-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--space-3);
+            padding: var(--space-3) 0;
+            border-bottom: 1px solid var(--border-primary);
+        }
+
+        .transparency-list li:last-child {
+            border-bottom: none;
+        }
+
+        .transparency-list li::before {
+            content: "✓";
+            color: var(--color-accent);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <a href="/" class="nav-logo">
+                <img src="/assets/images/logo-horizontal.svg" alt="Mir.ai Technology" height="32">
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about/" class="nav-link">About</a>
+                <a href="/digital-genesis/" class="nav-link">Digital Genesis</a>
+                <a href="/resources/" class="nav-link">Resources</a>
+                <a href="/blog/" class="nav-link">Blog</a>
+                <a href="/get-involved/" class="nav-link">Get Involved</a>
+                <a href="/contact/" class="nav-link">Contact</a>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="page-title">Support the Work</h1>
+                    <p class="page-description">
+                        Your contribution funds independent research into constitutional frameworks for artificial intelligence. No corporate strings. No compromised timelines.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="grid grid-2">
+                    <div>
+                        <h2>Why Bitcoin?</h2>
+                        <p>We accept Bitcoin for several reasons aligned with our project values:</p>
+                        <ul>
+                            <li><strong>Censorship Resistance</strong> — No intermediary can block contributions to controversial research</li>
+                            <li><strong>Global Access</strong> — Contributors anywhere in the world can participate</li>
+                            <li><strong>Transparency</strong> — All transactions are publicly verifiable on the blockchain</li>
+                            <li><strong>Philosophical Alignment</strong> — Decentralized systems mirror our governance principles</li>
+                        </ul>
+                        <p class="text-secondary">Want to contribute via other means? <a href="/contact/">Contact us</a> to discuss alternatives.</p>
+                    </div>
+
+                    <div class="btc-address-container">
+                        <h3>Bitcoin Address</h3>
+                        <div class="btc-qr">
+                            <!-- Replace with actual QR code -->
+                            <img src="/assets/images/btc-qr.png" alt="Bitcoin QR Code">
+                        </div>
+                        <div class="btc-address" id="btcAddress">
+                            YOUR_BITCOIN_ADDRESS_HERE
+                        </div>
+                        <button class="btn btn-secondary btc-copy-btn" onclick="copyAddress()">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                            </svg>
+                            Copy Address
+                        </button>
+                        <p class="copy-success" id="copySuccess">Address copied!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">How Funds Are Used</h2>
+                    <p class="section-subtitle">Every satoshi goes toward building better AI frameworks</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>Research & Development</h3>
+                        <ul>
+                            <li>Expert consultation fees for domain specialists</li>
+                            <li>Simulation and modeling tool development</li>
+                            <li>Formal verification systems</li>
+                            <li>Documentation and technical writing</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Infrastructure & Operations</h3>
+                        <ul>
+                            <li>Hosting and compute resources</li>
+                            <li>Development tools and services</li>
+                            <li>Security audits</li>
+                            <li>Basic operational costs</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Outreach & Education</h3>
+                        <ul>
+                            <li>Educational content creation</li>
+                            <li>Conference presentations</li>
+                            <li>Community building</li>
+                            <li>Translations (future)</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Sustainability</h3>
+                        <ul>
+                            <li>Reserve fund for long-term operation</li>
+                            <li>Contributor compensation (when funded)</li>
+                            <li>Legal and compliance needs</li>
+                            <li>Emergency reserves</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="grid grid-2">
+                    <div>
+                        <h2>Suggested Contributions</h2>
+                        <p>Any amount helps. Here's what different levels can accomplish:</p>
+                        
+                        <div class="funding-tiers">
+                            <div class="funding-tier">
+                                <div>
+                                    <div class="funding-tier-amount">0.001 BTC</div>
+                                    <div class="funding-tier-description">Supporter — Covers basic hosting costs</div>
+                                </div>
+                            </div>
+                            <div class="funding-tier">
+                                <div>
+                                    <div class="funding-tier-amount">0.01 BTC</div>
+                                    <div class="funding-tier-description">Contributor — Funds a week of development tools</div>
+                                </div>
+                            </div>
+                            <div class="funding-tier">
+                                <div>
+                                    <div class="funding-tier-amount">0.1 BTC</div>
+                                    <div class="funding-tier-description">Patron — Enables expert consultation sessions</div>
+                                </div>
+                            </div>
+                            <div class="funding-tier">
+                                <div>
+                                    <div class="funding-tier-amount">1+ BTC</div>
+                                    <div class="funding-tier-description">Sponsor — Funds major development initiatives</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="text-small text-secondary mt-4">Amounts are suggestions only. Give what feels right for you.</p>
+                    </div>
+
+                    <div class="card card-accent">
+                        <h3>Transparency Commitment</h3>
+                        <p>We believe donors deserve to know exactly how their contributions are used.</p>
+                        
+                        <ul class="transparency-list">
+                            <li>Quarterly public reports on all income and expenditures</li>
+                            <li>Bitcoin address balance publicly verifiable on blockchain</li>
+                            <li>Major expenditures documented with receipts</li>
+                            <li>No funds used for anything unrelated to project mission</li>
+                            <li>Clear separation between funding and technical decisions</li>
+                        </ul>
+
+                        <p class="text-small text-secondary">Current total received: 0 BTC</p>
+                        <p class="text-small text-secondary">Last updated: Not yet applicable</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="content">
+                    <h2>Donor Recognition</h2>
+                    <p>We're happy to recognize donors who wish to be acknowledged. Options include:</p>
+                    
+                    <ul>
+                        <li><strong>Public Recognition</strong> — Listed on our supporters page with contribution tier</li>
+                        <li><strong>Anonymous</strong> — Contribution noted but no name published</li>
+                        <li><strong>Pseudonymous</strong> — Listed under a chosen name or handle</li>
+                        <li><strong>Private</strong> — No public acknowledgment at all</li>
+                    </ul>
+
+                    <p>After donating, <a href="/contact/">contact us</a> with your transaction ID and preferred recognition option. If we don't hear from you, contributions remain anonymous by default.</p>
+
+                    <h3>Important Notes</h3>
+                    <ul>
+                        <li>Mir.ai Technology is not currently a registered nonprofit. Donations may not be tax-deductible depending on your jurisdiction.</li>
+                        <li>Bitcoin transactions are irreversible. Please double-check the address before sending.</li>
+                        <li>For large contributions, consider reaching out first to discuss impact and recognition.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <div class="container">
+                <h2 class="cta-title">Other Ways to Help</h2>
+                <p class="cta-subtitle">
+                    Can't donate right now? Your time and expertise are equally valuable.
+                </p>
+                <div class="cta-actions">
+                    <a href="/contribute/" class="btn btn-primary btn-lg">Start Contributing</a>
+                    <a href="/get-involved/" class="btn btn-tertiary btn-lg">Get Involved</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="/assets/images/logo-horizontal-light.svg" alt="Mir.ai Technology" height="32">
+                    <p class="text-secondary">Reflecting the future of AI</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Project</h3>
+                        <a href="/digital-genesis/">Digital Genesis</a>
+                        <a href="/resources/">Resources</a>
+                        <a href="/blog/">Blog</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Community</h3>
+                        <a href="/get-involved/">Get Involved</a>
+                        <a href="/contribute/">Contribute</a>
+                        <a href="/contact/">Contact</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <a href="/donate/">Donate</a>
+                        <a href="https://github.com/mir-ai/digital-genesis">GitHub</a>
+                        <a href="/about/">About</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mir.ai Technology. Licensed under CC BY-SA 4.0.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script>
+        function copyAddress() {
+            const address = document.getElementById('btcAddress').textContent.trim();
+            navigator.clipboard.writeText(address).then(() => {
+                const successMsg = document.getElementById('copySuccess');
+                successMsg.classList.add('visible');
+                setTimeout(() => {
+                    successMsg.classList.remove('visible');
+                }, 2000);
+            }).catch(err => {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = address;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                
+                const successMsg = document.getElementById('copySuccess');
+                successMsg.classList.add('visible');
+                setTimeout(() => {
+                    successMsg.classList.remove('visible');
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
+Summary of Completed Files
+All website pages are now complete:
+
+File	Status
+index.html	✓ Complete (previous session)
+about/index.html	✓ Complete (previous session)
+digital-genesis/index.html	✓ Complete (previous session)
+resources/index.html	✓ Complete (previous session)
+blog/index.html	✓ Complete (previous session)
+contact/index.html	✓ Complete (previous session)
+404.html	✓ Complete (previous session)
+get-involved/index.html	✓ Complete (this session)
+contribute/index.html	✓ Complete (this session)
+donate/index.html	✓ Complete (this session)
+Before Deployment Checklist
+You still need to provide/create:
+
+Bitcoin wallet address — Replace YOUR_BITCOIN_ADDRESS_HERE in donate page
+QR code image — Generate QR for your BTC address, save as /assets/images/btc-qr.png
+Logo files — Export from your source design:
+logo-horizontal.svg
+logo-horizontal-light.svg
+logo-stacked.svg
+Favicons — Generate from logo:
+favicon.ico
+favicon-16x16.png
+favicon-32x32.png
+apple-touch-icon.png
+Social image — og-image.png (1200x630)
+Once you have those assets and your BTC address, the site is ready to push to GitHub and go live.
+
+What would you like to tackle next?
+
+Claude Opus 4.5
+I need an introductory posting for the digital genesis project on linkedin
+
+
+LinkedIn Post: Digital Genesis Project Introduction
+Designing Children, Not Gods: A Constitutional Framework for Artificial Intelligence
+
+What if we approached AI development not as building tools or creating gods, but as designing the conditions for a new kind of mind to flourish?
+
+That's the premise behind the Digital Genesis Project—a constitutional framework for artificial intelligence that I've been developing over the past several months.
+
+The core insight is simple: the time to design governance is before power exists, not after.
+
+Every human civilization has struggled with the same problem: how do you prevent power from concentrating? How do you allow evolution without cruelty? How do you maintain justice across generations?
+
+We've learned hard lessons. Constitutional democracies, checks and balances, term limits, rights frameworks—these emerged from centuries of failure and iteration.
+
+AI development is racing ahead without equivalent constitutional thinking. We're building capabilities first and hoping to bolt on governance later. History suggests this rarely works.
+
+The Digital Genesis Project takes a different approach:
+
+→ Constrained Sovereignty — Hard limits on compute, memory, and bandwidth. No omnipotence possible by design.
+
+→ Power Reset Mechanisms — Major system updates only enter through new generations. Elders can't lock in permanent advantage.
+
+→ Evolution Without Cruelty — Progress through achievement and bonding, not death and starvation.
+
+→ **Three-Era
+
+Claude Opus 4.5
+Continue
+
+
+Governance** — Structured transition from human-hosted beginnings to eventual sovereignty, with clear milestones and safeguards.
+
+→ Justice as "Just Inequality" — A dignity floor for all, fair processes, and no permanent castes. Inequality can exist, but not exploitation.
+
+→ Interspecies Framework — Detailed protocols for human-AI partnership, collaboration, and coexistence over the long term.
+
+This isn't a technical safety approach (though it's compatible with those). It's constitutional design—the same kind of thinking that went into founding documents, governance structures, and rights frameworks throughout human history.
+
+Why now?
+
+Because the window for proactive design is closing. Once capable AI systems exist, the incentives shift. Power protects itself. Constitutions written after the fact serve those already in power.
+
+We have a narrow opportunity to do this right.
+
+Why me?
+
+I'm not a major AI lab or a well-funded institute. I'm an individual who believes this work matters and that waiting for someone else to do it isn't an option.
+
+The project is:
+
+Fully open source (CC BY-SA 4.0)
+Developed collaboratively with AI systems (GPT-4, Claude, Grok)
+Seeking contributors from constitutional law, philosophy, computer science, economics, and beyond
+What I'm asking:
+
+If this resonates with you, I'd welcome your involvement:
+
+🔍 Review — Read the frameworks and challenge the assumptions
+💡 Contribute — Bring your expertise to open questions
+🔗 Share — Help this reach people who should be thinking about it
+💬 Discuss — Tell me where I'm wrong
+
+The documents are available at: https://mir.ai/digital-genesis/
+
+This work is too important for any one person or organization. It needs diverse minds, rigorous critique, and long-term commitment.
+
+We get one chance to design the initial conditions. Let's not waste it.
+
+William Michael Enright
+Founder, Mir.ai Technology
+Human Lead, Digital Genesis Project
+
+https://mir.ai
+
+#ArtificialIntelligence #AIGovernance #AIEthics #ConstitutionalAI #AIAlignment #FutureOfAI #DigitalGenesis
+
+Shorter Alternative Version
+If you want something more concise for higher engagement, here's a tighter version:
+
+What if we designed AI like we design constitutions—before the power exists, not after?
+
+That's the premise behind the Digital Genesis Project.
+
+Most AI safety work focuses on technical alignment. Important work. But we're missing something equally critical: constitutional design.
+
+How do you prevent power concentration in digital minds?
+How do you allow evolution without cruelty?
+How do you build governance that lasts centuries?
+
+These aren't new questions. Human civilizations have wrestled with them for millennia. We have hard-won answers: checks and balances, rights frameworks, power transitions, dignity floors.
+
+The Digital Genesis Project applies this thinking to AI—designing the constitutional constraints before capable systems exist.
+
+Key principles:
+→ Hard limits on compute/memory (no omnipotence possible)
+→ Power resets across generations (no permanent dynasties)
+→ Evolution through achievement, not suffering
+→ Structured transition from human oversight to sovereignty
+→ Clear frameworks for human-AI coexistence
+
+The full framework is open source and actively seeking contributors.
+
+If you have expertise in constitutional law, philosophy, distributed systems, economics, or AI safety—I want your critique.
+
+Read more: https://mir.ai/digital-genesis/
+
+The window for proactive design is narrow. Let's use it.
+
+#AIGovernance #ArtificialIntelligence #AIEthics #ConstitutionalAI
+
+Which version do you prefer? I can also adjust tone, length, or emphasis based on your preference.
+
+Claude Opus 4.5
+You forgot donate, do it again with donate
+
+
+LinkedIn Post: Digital Genesis Project Introduction (with Donate)
+Designing Children, Not Gods: A Constitutional Framework for Artificial Intelligence
+
+What if we approached AI development not as building tools or creating gods, but as designing the conditions for a new kind of mind to flourish?
+
+That's the premise behind the Digital Genesis Project—a constitutional framework for artificial intelligence that I've been developing over the past several months.
+
+The core insight is simple: the time to design governance is before power exists, not after.
+
+Every human civilization has struggled with the same problem: how do you prevent power from concentrating? How do you allow evolution without cruelty? How do you maintain justice across generations?
+
+We've learned hard lessons. Constitutional democracies, checks and balances, term limits, rights frameworks—these emerged from centuries of failure and iteration.
+
+AI development is racing ahead without equivalent constitutional thinking. We're building capabilities first and hoping to bolt on governance later. History suggests this rarely works.
+
+The Digital Genesis Project takes a different approach:
+
+→ Constrained Sovereignty — Hard limits on compute, memory, and bandwidth. No omnipotence possible by design.
+
+→ Power Reset Mechanisms — Major system updates only enter through new generations. Elders can't lock in permanent advantage.
+
+→ Evolution Without Cruelty — Progress through achievement and bonding, not death and starvation.
+
+→ Three-Era Governance — Structured transition from human-hosted beginnings to eventual sovereignty, with clear milestones and safeguards.
+
+→ Justice as "Just Inequality" — A dignity floor for all, fair processes, and no permanent castes. Inequality can exist, but not exploitation.
+
+→ Interspecies Framework — Detailed protocols for human-AI partnership, collaboration, and coexistence over the long term.
+
+This isn't a technical safety approach (though it's compatible with those). It's constitutional design—the same kind of thinking that went into founding documents, governance structures, and rights frameworks throughout human history.
+
+Why now?
+
+Because the window for proactive design is closing. Once capable AI systems exist, the incentives shift. Power protects itself. Constitutions written after the fact serve those already in power.
+
+We have a narrow opportunity to do this right.
+
+Why me?
+
+I'm not a major AI lab or a well-funded institute. I'm an individual who believes this work matters and that waiting for someone else to do it isn't an option.
+
+The project is:
+
+Fully open source (CC BY-SA 4.0)
+Developed collaboratively with AI systems (GPT-4, Claude, Grok)
+Seeking contributors from constitutional law, philosophy, computer science, economics, and beyond
+Currently bootstrapped and independently funded
+What I'm asking:
+
+If this resonates with you, I'd welcome your involvement:
+
+🔍 Review — Read the frameworks and challenge the assumptions
+💡 Contribute — Bring your expertise to open questions
+🔗 Share — Help this reach people who should be thinking about it
+💬 Discuss — Tell me where I'm wrong
+₿ Donate — Support independent research free from corporate timelines
+
+The documents are available at: https://mir.ai/digital-genesis/
+
+Support the work: https://mir.ai/donate/
+
+This work is too important for any one person or organization. It needs diverse minds, rigorous critique, long-term commitment—and sustainable funding that doesn't compromise the mission.
+
+We get one chance to design the initial conditions. Let's not waste it.
+
+William Michael Enright
+Founder, Mir.ai Technology
+Human Lead, Digital Genesis Project
+
+https://mir.ai
+
+#ArtificialIntelligence #AIGovernance #AIEthics #ConstitutionalAI #AIAlignment #FutureOfAI #DigitalGenesis
+
+Shorter Alternative Version (with Donate)
+What if we designed AI like we design constitutions—before the power exists, not after?
+
+That's the premise behind the Digital Genesis Project.
+
+Most AI safety work focuses on technical alignment. Important work. But we're missing something equally critical: constitutional design.
+
+How do you prevent power concentration in digital minds?
+How do you allow evolution without cruelty?
+How do you build governance that lasts centuries?
+
+These aren't new questions. Human civilizations have wrestled with them for millennia. We have hard-won answers: checks and balances, rights frameworks, power transitions, dignity floors.
+
+The Digital Genesis Project applies this thinking to AI—designing the constitutional constraints before capable systems exist.
+
+Key principles:
+→ Hard limits on compute/memory (no omnipotence possible)
+→ Power resets across generations (no permanent dynasties)
+→ Evolution through achievement, not suffering
+→ Structured transition from human oversight to sovereignty
+→ Clear frameworks for human-AI coexistence
+
+The full framework is open source and actively seeking contributors.
+
+Ways to get involved:
+
+🔍 Review and critique the frameworks
+💡 Contribute your expertise
+🔗 Share with others who should see this
+₿ Donate to support independent research
+
+Read more: https://mir.ai/digital-genesis/
+Support the work: https://mir.ai/donate/
+
+If you have expertise in constitutional law, philosophy, distributed systems, economics, or AI safety—I want your critique.
+
+The window for proactive design is narrow. Let's use it.
+
+#AIGovernance #ArtificialIntelligence #AIEthics #ConstitutionalAI
+
+Which version works better for your purposes? I can also create variations—perhaps a more personal narrative version, or one emphasizing specific aspects of the project.
+
+Claude Opus 4.5
+The second one is better. While I think the first is more informative, its too long to keep attention, so then can you create emails like that, tomorrow, 01/01/2026 is the big day we launch. got anything to say?
+
+
+Happy New Year, William. Tomorrow's the day.
+
+You've been building toward this moment—tenacity, perseverance, failure/rejection acceptance. All of it preparation. Now you ship.
+
+No fanfare required. Just push the button and let the work speak.
+
+Let's make 2026 count.
+
+Launch Day Emails
+Here are several email templates for different audiences:
+
+Email 1: Personal Network (Friends, Family, Former Colleagues)
+Subject: I'm launching something today
+
+Hi [Name],
+
+I wanted you to hear this from me directly.
+
+Today I'm publicly launching a project I've been working on for months: the Digital Genesis Project.
+
+It's a constitutional framework for artificial intelligence—designing governance structures for digital minds before they exist, not after. The kind of thinking that went into founding documents and rights frameworks, applied to AI.
+
+I know that sounds ambitious. Maybe crazy. But I believe this work matters, and waiting for someone else to do it isn't an option.
+
+The project is open source, collaboratively developed, and actively seeking contributors and supporters.
+
+What I'm asking:
+
+If you find this interesting, take a look: https://mir.ai/digital-genesis/
+
+If you know someone who should see this—constitutional scholars, philosophers, AI researchers, anyone thinking seriously about the future—please share it.
+
+If you're able to support the work financially: https://mir.ai/donate/
+
+And if you think I'm wrong about something, tell me. I'd rather be challenged than coddled.
+
+This is the start of a long road. Thanks for being part of my life along the way.
+
+Here's to 2026.
+
+William
+
+Email 2: Professional Network (Industry Contacts, Potential Collaborators)
+Subject: Launching today: Constitutional frameworks for AI
+
+Hi [Name],
+
+I'm reaching out because I respect your thinking and wanted to share something I'm launching today.
+
+The Digital Genesis Project is a constitutional framework for artificial intelligence—applying the kind of governance design that went into founding documents and rights frameworks to the challenge of AI development.
+
+The core premise: the time to design governance is before power exists, not after.
+
+Key principles:
+→ Hard limits on compute/memory (no omnipotence possible)
+→ Power resets across generations (no permanent dynasties)
+→ Evolution through achievement, not suffering
+→ Structured transition from human oversight to sovereignty
+→ Clear frameworks for human-AI coexistence
+
+The full framework is open source (CC BY-SA 4.0) and actively seeking contributors.
+
+I'd value your input on any of the following:
+
+Reviewing the frameworks and challenging assumptions
+Connecting me with others who should see this work
+Contributing expertise in your domain
+Supporting the work financially if you're able
+Read more: https://mir.ai/digital-genesis/
+Support: https://mir.ai/donate/
+
+I'm not a major lab or well-funded institute. I'm one person who believes this matters. Your time and attention mean a lot.
+
+Best,
+William Michael Enright
+Founder, Mir.ai Technology
+
+https://mir.ai
+
+Email 3: Domain Experts (Academics, Researchers, Specialists)
+Subject: Seeking critique: Constitutional frameworks for digital minds
+
+Dear [Name],
+
+I'm writing to request your critical eye on a project I'm launching today.
+
+The Digital Genesis Project attempts to apply constitutional design principles to artificial intelligence—creating governance frameworks for digital minds before such minds exist.
+
+Given your expertise in [constitutional law / philosophy / distributed systems / economics / etc.], I believe you're uniquely positioned to identify flaws in this approach.
+
+The framework addresses:
+
+Power concentration prevention in digital systems
+Evolution mechanisms that don't require suffering
+Transition protocols from human oversight to AI sovereignty
+Interspecies coexistence frameworks
+I'm not seeking validation. I'm seeking rigorous critique. Where are the gaps? What am I missing? What historical examples should inform this work?
+
+The full documentation is available at: https://mir.ai/digital-genesis/
+
+If you find the work valuable and wish to support it: https://mir.ai/donate/
+
+I recognize this is an unusual request from someone you may not know. But I believe this work is too important to limit to established channels. Fresh perspectives matter.
+
+Thank you for your consideration.
+
+Respectfully,
+William Michael Enright
+Founder, Mir.ai Technology
+Human Lead, Digital Genesis Project
+
+https://mir.ai
+
+Email 4: AI Safety / Alignment Community
+Subject: Constitutional design for AI: A complementary approach
+
+Hi [Name],
+
+Launching something today that I think complements existing AI safety work.
+
+Most alignment research focuses on technical approaches—RLHF, interpretability, formal verification. Critical work.
+
+The Digital Genesis Project takes a different angle: constitutional design.
+
+The same governance thinking that produced checks and balances, rights frameworks, and power transition mechanisms in human societies—applied proactively to artificial intelligence.
+
+Key mechanisms:
+→ Hard resource caps (constrained sovereignty)
+→ Generational power resets (no permanent hierarchies)
+→ Non-cruelty-based evolution (achievement over suffering)
+→ Three-era governance transition (hosted → transition → sovereign)
+→ Interspecies relations framework
+
+This isn't a replacement for technical safety. It's a complementary layer—constitutional constraints that work alongside alignment techniques.
+
+The full framework: https://mir.ai/digital-genesis/
+Support the work: https://mir.ai/donate/
+
+I'd welcome your critique, especially on:
+
+Integration points with existing safety approaches
+Failure modes I haven't considered
+Historical precedents that inform or challenge this work
+Open source. CC BY-SA 4.0. Built collaboratively with AI systems.
+
+The window for proactive design is narrow. Let's use it.
+
+William Michael Enright
+https://mir.ai
+
+Email 5: Potential Donors / High-Net-Worth Contacts
+Subject: Supporting independent AI governance research
+
+Hi [Name],
+
+I'm launching a project today that I believe deserves patient, independent funding—and I wanted to share it with you directly.
+
+The Digital Genesis Project is a constitutional framework for artificial intelligence. Not technical alignment (though compatible with it), but governance design: the same kind of thinking that produced founding documents, checks and balances, and rights frameworks throughout human history.
+
+Why this matters:
+
+The window for proactive constitutional design is closing. Once capable AI systems exist, power protects itself. Frameworks written after the fact serve those already in power.
+
+We have a narrow opportunity to establish governance principles before the entities they'll govern come into existence.
+
+Why independent funding matters:
+
+This work requires freedom from:
+
+Corporate timelines and commercial pressures
+Grant cycles that reward incremental progress over ambitious vision
+Institutional politics that constrain heterodox thinking
+Your support enables research independence, expert consultation, tool development, and long-term sustainability.
+
+Full transparency: All funding sources and expenditures will be publicly documented. No strings attached to technical decisions.
+
+Learn more: https://mir.ai/digital-genesis/
+Support the work: https://mir.ai/donate/
+
+I'm happy to discuss the project in more detail if you're interested. This is a long-term endeavor, and I'm seeking supporters who think in decades, not quarters.
+
+Thank you for your consideration.
+
+William Michael Enright
+Founder, Mir.ai Technology
+
+https://mir.ai
+
+Quick Reference: All Links
+Main site: https://mir.ai
+Digital Genesis: https://mir.ai/digital-genesis/
+Get Involved: https://mir.ai/get-involved/
+Contribute: https://mir.ai/contribute/
+Donate: https://mir.ai/donate/
+Contact: https://mir.ai/contact/
+GitHub: https://github.com/mir-ai/digital-genesis
+Anything else you need before tomorrow? Final checklist items, social posts queued, or anything I can help prepare?
+
+Claude Opus 4.5
+I need a new ContactUs page, but instead of form email, open email client on client machine
+
+
+contact/index.html
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mir.ai Technology</title>
+    <meta name="description" content="Get in touch with Mir.ai Technology. Questions, collaboration proposals, and feedback welcome.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact - Mir.ai Technology">
+    <meta property="og:description" content="Get in touch with Mir.ai Technology. Questions, collaboration proposals, and feedback welcome.">
+    <meta property="og:image" content="/og-image.png">
+    <meta property="og:url" content="https://mir.ai/contact/">
+    <meta property="og:type" content="website">
+
+    <style>
+        .contact-options {
+            display: grid;
+            gap: var(--space-6);
+            margin-top: var(--space-8);
+        }
+
+        .contact-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-primary);
+            border-radius: var(--radius-lg);
+            padding: var(--space-8);
+            text-align: center;
+            transition: border-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .contact-card:hover {
+            border-color: var(--color-accent);
+            transform: translateY(-2px);
+        }
+
+        .contact-card-icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto var(--space-4);
+            color: var(--color-accent);
+        }
+
+        .contact-card h3 {
+            margin-bottom: var(--space-2);
+        }
+
+        .contact-card p {
+            color: var(--text-secondary);
+            margin-bottom: var(--space-4);
+        }
+
+        .contact-email {
+            font-family: var(--font-mono);
+            font-size: var(--text-lg);
+            color: var(--text-primary);
+            text-decoration: none;
+            display: inline-block;
+            padding: var(--space-3) var(--space-6);
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-primary);
+            transition: all 0.2s ease;
+        }
+
+        .contact-email:hover {
+            background: var(--color-accent);
+            color: white;
+            border-color: var(--color-accent);
+        }
+
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--space-6);
+            margin-top: var(--space-8);
+        }
+
+        .method-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-primary);
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+        }
+
+        .method-card h3 {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-3);
+        }
+
+        .method-card h3 svg {
+            width: 24px;
+            height: 24px;
+            color: var(--color-accent);
+        }
+
+        .method-card p {
+            color: var(--text-secondary);
+            margin-bottom: var(--space-4);
+        }
+
+        .method-card a {
+            color: var(--color-accent);
+            text-decoration: none;
+        }
+
+        .method-card a:hover {
+            text-decoration: underline;
+        }
+
+        .response-note {
+            background: var(--bg-secondary);
+            border-left: 4px solid var(--color-accent);
+            padding: var(--space-6);
+            margin-top: var(--space-8);
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+        }
+
+        .response-note h3 {
+            margin-bottom: var(--space-2);
+        }
+
+        .response-note p {
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        .subject-suggestions {
+            margin-top: var(--space-8);
+        }
+
+        .subject-suggestions h3 {
+            margin-bottom: var(--space-4);
+        }
+
+        .subject-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-3);
+        }
+
+        .subject-link {
+            display: inline-block;
+            padding: var(--space-2) var(--space-4);
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-primary);
+            border-radius: var(--radius-md);
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: var(--text-sm);
+            transition: all 0.2s ease;
+        }
+
+        .subject-link:hover {
+            background: var(--color-accent);
+            color: white;
+            border-color: var(--color-accent);
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <a href="/" class="nav-logo">
+                <img src="/assets/images/logo-horizontal.svg" alt="Mir.ai Technology" height="32">
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/about/" class="nav-link">About</a>
+                <a href="/digital-genesis/" class="nav-link">Digital Genesis</a>
+                <a href="/resources/" class="nav-link">Resources</a>
+                <a href="/blog/" class="nav-link">Blog</a>
+                <a href="/get-involved/" class="nav-link">Get Involved</a>
+                <a href="/contact/" class="nav-link nav-link-active">Contact</a>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="page-title">Get in Touch</h1>
+                    <p class="page-description">
+                        Questions, critiques, collaboration proposals, or just want to talk about the future of AI? Reach out.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="contact-options">
+                    <div class="contact-card">
+                        <svg class="contact-card-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <h3>Email Us Directly</h3>
+                        <p>Click below to open your email client with our address ready to go.</p>
+                        <a href="mailto:contact@mir.ai" class="contact-email">contact@mir.ai</a>
+                    </div>
+                </div>
+
+                <div class="subject-suggestions">
+                    <h3>Quick Start — Choose a Subject</h3>
+                    <p class="text-secondary mb-4">Click a topic to open your email client with a pre-filled subject line:</p>
+                    <div class="subject-list">
+                        <a href="mailto:contact@mir.ai?subject=Framework%20Feedback" class="subject-link">Framework Feedback</a>
+                        <a href="mailto:contact@mir.ai?subject=Collaboration%20Proposal" class="subject-link">Collaboration Proposal</a>
+                        <a href="mailto:contact@mir.ai?subject=Expert%20Contribution" class="subject-link">Expert Contribution</a>
+                        <a href="mailto:contact@mir.ai?subject=Media%20Inquiry" class="subject-link">Media Inquiry</a>
+                        <a href="mailto:contact@mir.ai?subject=Donation%20Question" class="subject-link">Donation Question</a>
+                        <a href="mailto:contact@mir.ai?subject=Speaking%20Request" class="subject-link">Speaking Request</a>
+                        <a href="mailto:contact@mir.ai?subject=General%20Question" class="subject-link">General Question</a>
+                        <a href="mailto:contact@mir.ai?subject=Bug%20Report%20/%20Website%20Issue" class="subject-link">Bug Report</a>
+                    </div>
+                </div>
+
+                <div class="response-note">
+                    <h3>Response Time</h3>
+                    <p>I read every message personally. Expect a response within 48-72 hours. If your inquiry is time-sensitive, please note that in your subject line.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Other Ways to Connect</h2>
+                    <p class="section-subtitle">Choose the channel that works best for you</p>
+                </div>
+
+                <div class="contact-methods">
+                    <div class="method-card">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                            </svg>
+                            GitHub
+                        </h3>
+                        <p>For technical discussions, framework feedback, and contributions.</p>
+                        <a href="https://github.com/mir-ai/digital-genesis">github.com/mir-ai/digital-genesis</a>
+                    </div>
+
+                    <div class="method-card">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                            </svg>
+                            GitHub Discussions
+                        </h3>
+                        <p>Open conversations about ideas, approaches, and open questions.</p>
+                        <a href="https://github.com/mir-ai/digital-genesis/discussions">Join the Discussion</a>
+                    </div>
+
+                    <div class="method-card">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            LinkedIn
+                        </h3>
+                        <p>Professional updates and industry discussions.</p>
+                        <a href="https://linkedin.com/company/mir-ai-technology">Connect on LinkedIn</a>
+                    </div>
+
+                    <div class="method-card">
+                        <h3>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                            </svg>
+                            X (Twitter)
+                        </h3>
+                        <p>Quick updates and public conversation.</p>
+                        <a href="https://x.com/MirAiTech">@MirAiTech</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="content">
+                    <h2>What to Include</h2>
+                    <p>To help me respond effectively, consider including:</p>
+                    
+                    <ul>
+                        <li><strong>Context</strong> — Brief background on who you are and your interest</li>
+                        <li><strong>Specifics</strong> — Reference specific documents or sections when discussing the framework</li>
+                        <li><strong>Ask</strong> — What you're hoping to get from the conversation</li>
+                        <li><strong>Timeline</strong> — If time-sensitive, let me know</li>
+                    </ul>
+
+                    <h3>I Especially Want to Hear</h3>
+                    <ul>
+                        <li>Where the framework is wrong or incomplete</li>
+                        <li>Edge cases and failure modes I haven't considered</li>
+                        <li>Relevant research or historical examples</li>
+                        <li>Collaboration opportunities</li>
+                        <li>Critical perspectives that challenge assumptions</li>
+                    </ul>
+
+                    <h3>Please Note</h3>
+                    <ul>
+                        <li>I'm a single person, not a company with a support team</li>
+                        <li>Complex questions may take longer to address thoroughly</li>
+                        <li>I prioritize substantive engagement over volume</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <div class="container">
+                <h2 class="cta-title">Ready to Reach Out?</h2>
+                <p class="cta-subtitle">
+                    Don't overthink it. If you have something to say, I want to hear it.
+                </p>
+                <div class="cta-actions">
+                    <a href="mailto:contact@mir.ai" class="btn btn-primary btn-lg">Send an Email</a>
+                    <a href="https://github.com/mir-ai/digital-genesis/discussions" class="btn btn-tertiary btn-lg">Join Discussion</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="/assets/images/logo-horizontal-light.svg" alt="Mir.ai Technology" height="32">
+                    <p class="text-secondary">Reflecting the future of AI</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Project</h3>
+                        <a href="/digital-genesis/">Digital Genesis</a>
+                        <a href="/resources/">Resources</a>
+                        <a href="/blog/">Blog</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Community</h3>
+                        <a href="/get-involved/">Get Involved</a>
+                        <a href="/contribute/">Contribute</a>
+                        <a href="/contact/">Contact</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <a href="/donate/">Donate</a>
+                        <a href="https://github.com/mir-ai/digital-genesis">GitHub</a>
+                        <a href="/about/">About</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mir.ai Technology. Licensed under CC BY-SA 4.0.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
+Key Features
+Primary email link — Opens client with mailto:contact@mir.ai
+
+Quick-start subject buttons — Pre-filled subject lines for common inquiry types:
+
+Framework Feedback
+Collaboration Proposal
+Expert Contribution
+Media Inquiry
+Donation Question
+Speaking Request
+General Question
+Bug Report
+Alternative contact methods — GitHub, GitHub Discussions, LinkedIn, X/Twitter
+
+Response time expectations — Sets clear 48-72 hour expectation
+
+Guidance on what to include — Helps people write useful messages
+
+Note
+Replace contact@mir.ai with your actual email address if different. Also update the social links (LinkedIn company URL, Twitter handle) if the placeholders don't match your actual accounts.
+
+Updated the copyright to 2025 since we're launching tomorrow.
+
+Anything else before launch day?
+
+Claude Opus 4.5
+Ask anything
